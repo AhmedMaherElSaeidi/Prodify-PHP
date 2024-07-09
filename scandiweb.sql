@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `prodifydb`
 --
-CREATE DATABASE IF NOT EXISTS `prodifydb` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE IF NOT EXISTS `prodifydb` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `prodifydb`;
 
 -- --------------------------------------------------------
@@ -35,7 +35,7 @@ CREATE TABLE `products` (
   `sku` varchar(100) NOT NULL,
   `name` varchar(100) NOT NULL,
   `price` decimal(10,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `products`
@@ -66,7 +66,7 @@ CREATE TABLE `product_attributes` (
   `product_id` int NOT NULL,
   `attribute_name` enum('DVD','Book','Furniture') NOT NULL,
   `attribute_value` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `product_attributes`
