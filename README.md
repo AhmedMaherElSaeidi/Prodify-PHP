@@ -7,9 +7,10 @@ Welcome to the **Scandiweb Junior Developer Test Task - Backend** repository! Th
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Frontend Repository](#frontend-repository)
+- [Deployment](#deployment)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
 
 ## Project Overview
 
@@ -27,6 +28,12 @@ This project consists of a PHP-based backend application for managing products. 
 - **PHP**: Server-side scripting language for building the backend.
 - **MySQL**: Relational database management system.
 - **MySQLi**: PHP extension for MySQL database interactions.
+
+## Frontend repository 
+Here's the [Repository](https://github.com/AhmedMaherElSaeidi/Prodify-ReactJS).
+
+## Deployment
+My app is deployed at [infinity free](https://prodify.lovestoblog.com).
 
 ## Getting Started
 
